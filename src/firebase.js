@@ -6,13 +6,13 @@ import {
   signInWithEmailAndPassword,
 } from 'firebase/auth';
 import 'firebase/compat/firestore';
-import {
-  // getAuth, // authentication 설정
-  signInWithPopup, // google 로그인을 팝업창에 띄우기 위함
-  GoogleAuthProvider, // google login 기능
-  // email 로그인
-  // email 회원가입
-} from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js';
+// import {
+//   // getAuth, // authentication 설정
+//   signInWithPopup, // google 로그인을 팝업창에 띄우기 위함
+//   GoogleAuthProvider, // google login 기능
+//   // email 로그인
+//   // email 회원가입
+// } from 'https://www.gstatic.com/firebasejs/9.2.0/firebase-auth.js';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBdOftADdVX8NHG2PTemQxpbD56bE6XH-8',

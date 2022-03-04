@@ -19,3 +19,9 @@
     background: white;
   }
 }
+@media (max-width: 767px) {
+  //모바일
+  .TodoTemplate {
+    border-radius: 0;
+  }
+}

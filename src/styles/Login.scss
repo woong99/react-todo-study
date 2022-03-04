@@ -3,7 +3,6 @@
 }
 #root {
   background-color: rgba(0, 0, 0, 0.1);
-  height: 100vh;
   display: flex;
   align-items: center;
   .form {
@@ -43,5 +42,21 @@
         font-size: 16px;
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  //모바일
+  #root {
+    .form {
+      border-radius: 0px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  // 데스크탑 일반
+  #root {
+    height: 100vh;
   }
 }

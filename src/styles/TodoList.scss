@@ -1,6 +1,12 @@
 .TodoList {
-  height: 383px;
+  // height: 383px;
   // min-height: 383px;
   // max-height: 383px;
   overflow-y: auto;
+}
+@media (min-width: 1200px) {
+  // 데스크탑 일반
+  .TodoList {
+    height: 383px;
+  }
 }

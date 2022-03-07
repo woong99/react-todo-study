@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import { loginEmail, signupEmail } from '../firebase';
+import { signupEmail } from '../firebase';
 import '../styles/Login.scss';
 const SignUp = () => {
   const navigate = useNavigate();
@@ -18,7 +18,6 @@ const SignUp = () => {
     e.preventDefault();
     signupEmail(email, password)
       .then((result) => {
-        const user = result.user;
         alert('회원가입되었습니다!');
         navigate('/');
       })

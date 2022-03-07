@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap';
-import { loginEmail, signupEmail } from '../firebase';
+import { loginEmail } from '../firebase';
 import '../styles/Login.scss';
 
 const Login = () => {
